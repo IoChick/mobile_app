@@ -1,14 +1,45 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="amber">
     <ion-title>
-      Ionic Blank
+      <img src="assets/imgs/logo.png" style="vertical-align: middle; max-height: 35px;" />
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <h1 style="font-size: 13px;" text-center>Informações dos Sensores</h1>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center margin-right style="min-height: 100px; background: #fdfdfd;">
+        <span style="font-size: 11px;">
+          <strong>Temperatura (ºC)</strong>
+        </span>
+      </ion-col>
+      <ion-col text-center style="min-height: 100px; background: #fdfdfd;">
+        <span style="font-size: 11px;">
+          <strong>Umidade</strong>
+        </span>
+      </ion-col>
+    </ion-row>
+    <ion-row margin-top>
+      <ion-col text-center margin-right style="min-height: 100px; background: #fdfdfd;">
+        <span style="font-size: 11px;">
+          <strong>Luminosidade</strong>
+        </span>
+      </ion-col>
+      <ion-col text-center style="min-height: 100px; background: #fdfdfd;">
+        <span style="font-size: 11px;">
+          <strong>Nível de Água</strong>
+        </span>
+      </ion-col>
+    </ion-row>
+    <ion-row margin-top>
+      <ion-col text-center style="min-height: 100px; background: #fdfdfd;">
+        <span style="font-size: 11px;">
+          <strong>Nível de Ração</strong>
+        </span>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
