@@ -21,7 +21,8 @@ $app-direction: ltr;
 // the Sass variables found in Ionic's source scss files.
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
-
+$background-ios-color: #FAFAFA;
+$background-md-color: #FAFAFA;
 
 
 
@@ -39,7 +40,7 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  energized:  #ffc527,
+  energized:  #f18131,
   warning:    #fcf8e3,
   royal:      #7e60ff,
   subtle:     #444444,

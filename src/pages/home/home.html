@@ -7,44 +7,113 @@
 </ion-header>
 
 <ion-content padding>
-  <h1 style="font-size: 13px;" text-center>Informações dos Sensores</h1>
+  <h1 ion-text class="titulos">Sensores</h1>
 
   <ion-grid>
     <ion-row>
-      <ion-col text-center margin-right style="min-height: 100px; background: #fdfdfd;">
-        <span style="font-size: 11px;">
-          <strong>Temperatura (ºC)</strong>
-        </span>
-      </ion-col>
-      <ion-col text-center style="min-height: 100px; background: #fdfdfd;">
-        <span style="font-size: 11px;">
-          <strong>Umidade</strong>
-        </span>
-      </ion-col>
+		<ion-col>
+			<span ion-text class="subtitulos">
+				<ion-icon name="thermometer"></ion-icon>
+				<br/>
+				Temperatura
+			</span>
+			<span ion-text class="valor">
+				37ºC
+			</span>
+		</ion-col>
+		<ion-col margin-left>
+			<span ion-text class="subtitulos">
+				<ion-icon name="water"></ion-icon>
+				<br/>
+				Umidade
+			</span>
+			<span ion-text class="valor">
+				70%
+			</span>
+		</ion-col>
     </ion-row>
     <ion-row margin-top>
-      <ion-col text-center margin-right style="min-height: 100px; background: #fdfdfd;">
-        <span style="font-size: 11px;">
-          <strong>Luminosidade</strong>
-        </span>
-      </ion-col>
-      <ion-col text-center margin-right style="min-height: 100px; background: #fdfdfd;">
-        <span style="font-size: 11px;">
-          <strong>Chuva</strong>
-        </span>
-      </ion-col>  
+		<ion-col>
+			<span ion-text class="subtitulos">
+				<ion-icon name="sunny"></ion-icon>
+				<br/>
+				Luminosidade
+			</span>
+			<span ion-text class="valor">
+				Baixa
+			</span>
+		</ion-col>
+		<ion-col margin-left>
+			<span ion-text class="subtitulos">
+				<ion-icon name="rainy"></ion-icon>
+				<br/>
+				Chuva
+			</span>
+			<span ion-text class="valor">
+				Baixa
+			</span>
+		</ion-col>  
     </ion-row>
     <ion-row margin-top>
-      <ion-col text-center style="min-height: 100px; background: #fdfdfd;">
-        <span style="font-size: 11px;">
-          <strong>Nível de Água</strong>
-        </span>
-      </ion-col>
-      <ion-col text-center style="min-height: 100px; background: #fdfdfd;">
-        <span style="font-size: 11px;">
-          <strong>Nível de Ração</strong>
-        </span>
-      </ion-col>
+		<ion-col>
+			<span ion-text class="subtitulos">
+				<ion-icon name="beaker"></ion-icon>
+				<br/>
+				Nível de Água
+			</span>
+			<span ion-text class="valor">
+				Alto
+			</span>
+		</ion-col>
+		<ion-col margin-left>
+			<span ion-text class="subtitulos">
+				<ion-icon name="basket"></ion-icon>
+				<br/>
+				Nível de Ração
+			</span>
+			<span ion-text class="valor">
+				Alto
+			</span>
+		</ion-col>
     </ion-row>
   </ion-grid>
+
+  <h1 ion-text class="titulos">Dispositivos</h1>
+  
+  <ion-grid>
+      <ion-row>
+		<ion-col>
+			<span ion-text class="subtitulos">
+				<ion-icon name="bulb"></ion-icon>
+				<br/>
+				Lâmpada
+			</span>
+			<span ion-text class="valor">
+				On
+			</span>
+		</ion-col>
+		<ion-col margin-left>
+			<span ion-text class="subtitulos">
+				<ion-icon name="color-fill"></ion-icon>
+				<br/>
+				Bomba de Água
+			</span>
+			<span ion-text class="valor">
+				Off
+			</span>
+		</ion-col>
+	</ion-row>
+	<ion-row margin-top>
+		<ion-col>
+			<span ion-text class="subtitulos">
+				<ion-icon name="filing"></ion-icon>
+				<br/>
+				Dispensador de Ração
+			</span>
+			<span ion-text class="valor">
+				Off
+			</span>
+		</ion-col>
+      </ion-row>
+    </ion-grid>
 </ion-content>

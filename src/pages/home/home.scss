@@ -1,3 +1,33 @@
 page-home {
 
+    ion-col {
+        text-align: center;
+        min-height: 100px;
+        background: #fdfdfd;
+        border: 1px solid #dfdfdf;
+    }
+
+    .titulos {
+        font-weight: bold;
+        text-align: center;
+        font-size: 14px;
+        color: #f18131;
+    }
+
+    .subtitulos {
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        font-size: 13px;
+        color: #331913;
+    }
+
+    .valor {
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        font-size: 32px;
+        color: #331913;
+        margin-top: 5px;
+    }
 }
